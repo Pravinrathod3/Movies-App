@@ -18,16 +18,17 @@ const _layout = () => {
           alignItems: 'center',
         },
         tabBarStyle: {
+          position: 'absolute',
           borderRadius: 50,
           marginHorizontal: 20,
-          backgroundColor: 'rgba(255, 255, 255, 0.1)',
+          marginVertical: 10,
           borderWidth: 1,
           borderColor: 'rgba(255,255,255,0.2)',
           overflow: 'hidden',
         },
         tabBarBackground: () => (
           <BlurView 
-           intensity={50}
+           intensity={100}
            style={{flex : 1}}
           />
         )
