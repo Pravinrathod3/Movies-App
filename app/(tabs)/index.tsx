@@ -24,7 +24,7 @@ export default function Home() {
   useEffect(() => {
    const fetchmovies = async () => {
      try {
-        const res = await getmovie();
+        const res = await getmovie({query: ''});
         setdata(res.results)
      } catch (error) {
        console.log("error in ",error);
@@ -63,6 +63,13 @@ export default function Home() {
               <SearchBar />
             </View>
           </View>  
+          
+          {loading && (
+              <View className="my-10 items-center">
+              <View className="w-10 h-10 rounded-full border-4 border-gray-300 border-t-blue-500" />
+              <Text className="text-white mt-4 text-base">Loading...</Text>
+            </View>
+          )}
           
           <View className='flex-1 mt-5'>
             <Text className='text-gray-500 text-lg'>Latest Movie</Text>

@@ -5,6 +5,9 @@ const Profile = () => {
   return (
     <View className='flex-1 justify-center items-center'>
       <Text>Profile</Text>
+      <View>
+        <Text>Name</Text>
+      </View>
     </View>
   )
 }

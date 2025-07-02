@@ -1,4 +1,3 @@
-const url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc';
 const options = {
   method: 'GET',
   headers: {
@@ -7,7 +6,11 @@ const options = {
   }
 };
 
-export const getmovie = async () => {
+export const getmovie = async ({query} : {query: string}) => {
+
+  const url = query ? `https://api.themoviedb.org/3/search/movie?query=${encodeURIComponent(query)}` :
+  'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc';
+
   try {
     const response = await fetch(url, options);
     const data = await response.json();
@@ -16,6 +19,18 @@ export const getmovie = async () => {
     console.log("error", error);
     return [];
   } 
+}
+
+export const getmoviedetail = async({id} : {id: string}) => {
+  const url = `https://api.themoviedb.org/3/movie/${id}`;
+
+  try{
+   const response = await fetch(url, options);
+   const data = await response.json();
+   return data;
+  } catch(error){
+    console.log("error", error);
+  }
 }
 
   
