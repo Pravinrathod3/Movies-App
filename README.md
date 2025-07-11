@@ -32,14 +32,15 @@ A sleek, mobile-first movies application built with **Expo** and styled using **
 ## 📸 Screenshots
 
 ### 🔥 Latest Movies Page
-![Latest Movies](./assets/screenshot/Screenshot_2025-07-11-11-23-15-25_f73b71075b1de7323614b647fe394240.png)
+![Latest Movies](./assets/screenshot/Screenshot_2025-07-11-11-23-14-70_f73b71075b1de7323614b647fe394240.jpg)
+
 
 ### 🔍 Search Page
-![Search Page](./assets/screenshot/Screenshot_2025-07-11-11-23-33-14_f73b71075b1de7323614b647fe394240.png)
+![Search Page](./assets/screenshot/Screenshot_2025-07-11-11-23-33-14_f73b71075b1de7323614b647fe394240.jpg)
 
 ### 🎞️ Movie Detail Page
-![Movie Detail Page](./assets/screenshot/Screenshot_2025-07-11-11-23-46-21_f73b71075b1de7323614b647fe394240.png)
-![Movie Detail Pages](./assets/screenshot/Screenshot_2025-07-11-11-23-59-84_f73b71075b1de7323614b647fe394240.png)
+![Movie Detail Page](./assets/screenshot/Screenshot_2025-07-11-11-23-46-21_f73b71075b1de7323614b647fe394240.jpg)
+![Movie Detail Pages](./assets/screenshot/Screenshot_2025-07-11-11-23-59-84_f73b71075b1de7323614b647fe394240.jpg)
 
 ---
 
