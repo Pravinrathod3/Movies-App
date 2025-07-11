@@ -1,50 +1,57 @@
-# Welcome to your Expo app 👋
+# 🎬 Movies App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A sleek, mobile-first movies application built with **Expo** and styled using **NativeWind**. This app fetches the latest movies, allows users to search their favorite titles, and view detailed movie information — all in a smooth, minimalistic UI.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 🔥 **Latest Movies Page**  
+  Browse trending and newly released movies with poster thumbnails and quick info.
 
-2. Start the app
+- 🔍 **Search Page**  
+  Instantly search for movies by title with dynamic filtering.
 
-   ```bash
-   npx expo start
-   ```
+- 🎞️ **Movie Detail Page**  
+  Dive into detailed information: synopsis, release date, ratings, cast, and more.
 
-In the output, you'll find options to open the app in a
+- 💅 **Tailwind Styling with NativeWind**  
+  Rapid styling using Tailwind CSS classes tailored for React Native.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Tech Stack
 
-## Get a fresh project
+- [**Expo**](https://expo.dev/) – for fast, cross-platform mobile development  
+- [**React Native**](https://reactnative.dev/) – for building native apps using React  
+- [**NativeWind**](https://www.nativewind.dev/) – Tailwind CSS styling in React Native  
+- [**TMDB API**](https://www.themoviedb.org/documentation/api) – to fetch movie data (assumed)
 
-When you're ready, run:
+---
+
+## 📸 Screenshots
+
+### 🔥 Latest Movies Page
+![Latest Movies](./assets/screenshot/Screenshot_2025-07-11-11-23-15-25_f73b71075b1de7323614b647fe394240.png)
+
+### 🔍 Search Page
+![Search Page](./assets/screenshot/Screenshot_2025-07-11-11-23-33-14_f73b71075b1de7323614b647fe394240.png)
+
+### 🎞️ Movie Detail Page
+![Movie Detail Page](./assets/screenshot/Screenshot_2025-07-11-11-23-46-21_f73b71075b1de7323614b647fe394240.png)
+![Movie Detail Pages](./assets/screenshot/Screenshot_2025-07-11-11-23-59-84_f73b71075b1de7323614b647fe394240.png)
+
+---
+
+## 📦 Installation
 
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/your-username/movies-app.git
+cd movies-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Install dependencies
+npm install
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Start the Expo development server
+npx expo start
